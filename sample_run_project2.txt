@@ -1,0 +1,64 @@
+
+===== Game & Word Counter =====
+1) Play the number guessing game
+2) Count words in a file
+3) Quit
+Choose an option (1-3): 1
+
+I am thinking of a number between 1 and 100.
+You have 7 attempts.
+Guess (7 left): abc
+That is not a whole number. Try something like 42.
+Guess (7 left): 
+Please type a number; empty input is not a guess.
+Guess (7 left): 150
+Your guess must be between 1 and 100.
+Guess (7 left): 22
+Too low
+Guess (6 left): 62
+Too high
+Guess (5 left): 42
+Correct! You got it in 3 attempt(s).
+Score this round: 80
+Best score so far: 80
+Play again? (y/n): n
+
+===== Game & Word Counter =====
+1) Play the number guessing game
+2) Count words in a file
+3) Quit
+Choose an option (1-3): 2
+File name (press Enter for sample.txt): 
+
+Total words : 270
+Unique words: 148
+
+Rank  Word            Count
+---------------------------
+1     the                42
+2     and                13
+3     in                  7
+4     a                   7
+5     she                 7
+6     to                  5
+7     lantern             4
+8     mara                4
+9     light               4
+10    that                4
+
+Note: common words like 'the' and 'and' usually dominate the top of the list.
+
+===== Game & Word Counter =====
+1) Play the number guessing game
+2) Count words in a file
+3) Quit
+Choose an option (1-3): 2
+File name (press Enter for sample.txt): missing.txt
+File not found: 'missing.txt'. Check the name and folder, then try again.
+
+===== Game & Word Counter =====
+1) Play the number guessing game
+2) Count words in a file
+3) Quit
+Choose an option (1-3): 3
+Goodbye!
